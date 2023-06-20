@@ -53,6 +53,7 @@ function App(){
 
       <ul>
         {state.todos.map((todo,index) => {
+          console.log(todo);
           return <li key={index}>{todo}</li>
         })}
       </ul>
